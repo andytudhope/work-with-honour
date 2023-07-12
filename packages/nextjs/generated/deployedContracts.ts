@@ -1,11 +1,11 @@
 const contracts = {
-  31337: [
+  5: [
     {
-      chainId: "31337",
-      name: "localhost",
+      chainId: "5",
+      name: "goerli",
       contracts: {
         ERC20: {
-          address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+          address: "0xd67Da31889E1EC7423cab31c68cD6D3FE1fc6D00",
           abi: [
             {
               inputs: [
@@ -127,7 +127,7 @@ const contracts = {
           ],
         },
         Honour: {
-          address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+          address: "0x80c25Df6014253FE78f4Ec6258F73855dEe09A6c",
           abi: [
             {
               inputs: [
