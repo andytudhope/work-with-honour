@@ -2,19 +2,28 @@
 
 This repo hosts the code required for a workshop given at co:operate in Paris, July 2023. 
 
-It walks you through how to gate any content you like with the Honour token (HON). Honour is **not an asset**: it is an obligation. 
+It walks you through how to gate any content you like with the Honour token (HON). [Honour is **not an asset**: it is an obligation](https://www.kernel.community/en/tokens/token-studies/honour). 
 
 When we gate our chats or content with tokens that are assets and which represent the power to govern others, we mix the worst of capitalism with tyranny. 
 
 When, instead, the tokens required to get into any communal space represent a promise to pay back the debt incurred for entry, then the incentive is not to manipulate othersand speculate on price: it is to find the others whom you might serve such that they can forgive your debt. 
 
+## Structure
+
+There are three branches we will work through, so you can understand each step along the way to basic content gating using HON.
+
+1. The main branch (this default one) where the workshop will begin.
+2. The [fetch-balance](https://github.com/andytudhope/work-with-honour/tree/fetch-balance) branch, where we show how to use read basic data from a contract.
+3. The [add-modal](https://github.com/andytudhope/work-with-honour/tree/add-modal) where we conditionally render some UI elements based on the balance we fetched.
+4. The [finished-code](https://github.com/andytudhope/work-with-honour/tree/finished-code) which hosts the working code for gating content with HON, so that you leave the workshop with something functional, that you can play with and learn from.
+
+You'll find that each branch is one commit ahead of the one before it, so you can track along with the exact work done in each step by examining the appropriate [commits](https://github.com/andytudhope/work-with-honour/commits/finished-code).
+
 ## 🏗 Scaffold-ETH 2
 
-🧪 This workshop uses [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2/), an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+🧪 This workshop uses [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2/), an open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
-
-## Requirements
+## Preparation
 
 Before you begin, you need to install the following tools:
 
